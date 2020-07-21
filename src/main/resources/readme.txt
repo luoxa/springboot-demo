@@ -1,0 +1,1 @@
+静态文件加载目录优先级resources>static>public

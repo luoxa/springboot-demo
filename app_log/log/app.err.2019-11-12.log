@@ -1,0 +1,4 @@
+2019-11-12 13:23:10.604 ERROR[main]com.example.demo.LogTest.test:21 -这是一个error日志
+2019-11-12 13:23:46.385 ERROR[main]com.example.demo.LogTest.test:21 -这是一个error日志
+2019-11-12 13:24:17.239 ERROR[main]com.example.demo.LogTest.test:21 -这是一个error日志
+2019-11-12 13:25:29.200 ERROR[main]com.example.demo.LogTest.test:21 -这是一个error日志

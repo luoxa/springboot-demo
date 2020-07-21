@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>服务端推送SSE案例</title>
+</head>
+<body>
+	<p id="msg"></p>
+</body>
+<script type="text/javascript">
+
+	var es = new EventSource("/sse/test")
+	es.onmessage = function(event){
+		console.log(event.data)
+		document.getElementById("msg").innerText = event.data
+	}
+	
+</script>
+</html>
